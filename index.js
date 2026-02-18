@@ -19,7 +19,7 @@ const allowedOrigins = [
 
 app.use(
   cors({
-    origin: true,
+    origin: "https://college-event-management-zjh1.vercel.app/",
     credentials: true
   })
 );
